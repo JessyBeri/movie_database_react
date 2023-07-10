@@ -1,7 +1,7 @@
 {
     "name": "movie_database_api",
     "version": "0.1.0",
-    "homepage": "https://https://jessyberi.github.io/movie_database_react",
+    "homepage": "https://jessyberi.github.io/movie_database_react",
     "private": true,
     "dependencies": {
         "axios": "^1.4.0",
