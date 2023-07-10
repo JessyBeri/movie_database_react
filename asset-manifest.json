@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "//jessyberi.github.io/movie_database_react/static/css/main.9fdf059b.css",
+    "main.js": "//jessyberi.github.io/movie_database_react/static/js/main.f1bbb7b1.js",
+    "static/media/logo_movie_database.jpg": "//jessyberi.github.io/movie_database_react/static/media/logo_movie_database.daaa2d9a379eafae75c8.jpg",
+    "index.html": "//jessyberi.github.io/movie_database_react/index.html",
+    "main.9fdf059b.css.map": "//jessyberi.github.io/movie_database_react/static/css/main.9fdf059b.css.map",
+    "main.f1bbb7b1.js.map": "//jessyberi.github.io/movie_database_react/static/js/main.f1bbb7b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fdf059b.css",
+    "static/js/main.f1bbb7b1.js"
+  ]
+}
