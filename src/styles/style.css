@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, rgba(101, 0, 135, 0.300) 0%, rgba(151,75,176,0.150) 100%);
+}
+
+/* BARRE DE NAVIGATION - Navigation.js */
+
+nav {
+    background: red;
+    padding: 20px 10px;
+    background: rgb(102,0,135);
+    background: linear-gradient(90deg, rgba(102,0,135,1) 0%, rgba(151,75,176,1) 100%);
+}
+
+nav .navContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav .navContainer img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav .navContainer ul {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav .navContainer ul li {
+    list-style: none;
+}
+
+nav .navContainer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav .navContainer ul li a:hover {
+    color: rgb(241, 211, 241);
+    font-weight: bold;
+}
+
+nav .navContainer ul li a.active {
+    color: rgb(241, 211, 241);
+    font-weight: bold;
+}
+
+/* INPUT SECTION - HomePage.js */
+
+.inputSection {
+    padding: 35px 10px;
+    background: hsla(0, 0%, 0%, 0.100);
+}
+
+.inputSection .searchPart {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputSection .searchPart input[type="text"], .inputSection .searchPart button {
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    min-width: 174px;
+    font-size: 1.1rem;
+}
+
+.inputSection .searchPart button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.inputSection .searchPart button:hover {
+    color: #eee;
+    background: rgb(125, 63, 146);
+    transform: scale(1.05);
+}
+
+.inputSection .sortPart {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px 0 0;
+}
+
+.inputSection .sortPart button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.1rem;
+}
+
+.inputSection .sortPart button:hover {
+    color: #eee;
+    background: rgb(125, 63, 146);
+    transform: scale(1.05);
+}
+
+.inputSection .sortPart button i {
+    margin-right: 5px;
+}
+
+.inputSection .dateFilterPart {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.inputSection input[type="date"] {
+    width: 15%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    min-width: 174px;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.inputSection .rangePart {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px 0 0;
+
+}
+
+/* CARD PART - Card.js */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 35px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    background: #eee;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card img{
+    width: 290px;
+    height: 435px;
+}
